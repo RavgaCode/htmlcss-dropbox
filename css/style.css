@@ -12,52 +12,117 @@
 ul{
     list-style-type: none;
     display: flex;
+    align-items: center;
 }
 a{
     text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+.col-small{
+    width: 35%;
+}
+.col-large{
+    width: 65%;
+}
+.text-small{
+    font-size: smaller;
 }
 /* BUTTONS and COLORS*/
 .btn-small{
     padding: 5px 10px;
 }
+.btn-big{
+    padding: 7px 15px;
+}
+.nav-ul .btn-blue,
 .btn-blue{
     background-color: #0061FF;
     color: white;
 }
+
 /* HEADER */
 header{
     background-color: aqua;
     height: 80px;
-    padding-top: 30px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
+    height: 100%; 
 }
+
 .nav-ul li{
     padding: 0px 15px;
 }
 .nav-ul a{
     color: #424242;
     font-weight: 700;
-    padding-top: 10px;
+}
+
+
+/* MAIN */
+
+main{
+    padding-top: 80px;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    background-color: #B4D0E7;
+    height: auto;
+    padding-top: 80px;
+}
+.container-jumbo{
+    width: 85%;
+    margin: 0 auto;
+}
+.columns-jumbo{
+    display: flex;
+    justify-content: space-between;
+}
+.col-jumbo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+.col-jumbo .col-small{
+    padding-top: 80px;
+}
+h1{
+    font-size: 75px;
+}
+.col-small span{
+    padding: 30px 0;
+}
+.col-small div{
+    padding: 10px 0;
+}
+.col-small i{
+    font-size: 45px;
+}
+.img-jumbo{
+    position: relative;
+    top: 80px;
+    left: 0;
+}
+
+/* Piani abbonamento */
+.plans{
+    background-color: aquamarine;
+    height: 1000px;
+}
+.section-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
 }
 
 
 
-
-
-
-
-
-
-/* BUTTONS and COLORS*/
-.btn-small{
-    padding: 5px 10px;
-}
-.btn-blue{
-    background-color: #0061FF;
-    color: white;
-}
