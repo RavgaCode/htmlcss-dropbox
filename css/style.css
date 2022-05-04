@@ -318,3 +318,60 @@ h2{
     text-decoration: underline;
     color: #0061FF;
 }
+/* SQUARES - PARTNERS*/
+.squares{
+    background-color: bisque;
+    height: 600px;
+}
+.square-columns{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+.central-col{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #F5F5F5;
+}
+.side-col{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+.square-col{
+    width: 50%;
+    height: 50%;
+    border: 1px dotted white;
+    text-align: center;
+}
+.square-col img{
+    width: 50%;
+    vertical-align: middle;
+    filter: invert(1);
+}
+/* Square colors */
+.square-green{
+    background-color: #A2D39B;
+}
+.square-darkred{
+    background-color:#61082B ;
+}
+.square-bluecoral{
+    background-color: #0093CE;
+}
+.square-lightred{
+    background-color: #FF1C1C;
+}
+.square-red{
+    background-color: #D5001F;
+}
+.square-lightblue{
+    background-color: #B4D0E7;
+}
+.square-blue{
+    background-color: #0D2481;
+}
+.square-yellow{
+    background-color: #FFD830;
+}
