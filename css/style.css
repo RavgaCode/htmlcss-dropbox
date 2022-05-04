@@ -274,3 +274,30 @@ h2{
 .small-cta-col p{
     padding-bottom: 40px;
 }
+/* OPERATIONS */
+.operations{
+    background-color: white;
+    height: 2000px;
+}
+.op-columns{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.op-card{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 40px);
+    border: 1px dotted white;
+    padding-bottom: 60px;
+}
+.op-card img{
+    width: 100%;
+}
+.op-card h4{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.op-card p{
+    font-weight: 600;
+}
