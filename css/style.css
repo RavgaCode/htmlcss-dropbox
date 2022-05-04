@@ -8,6 +8,7 @@
 /* COMMON */
 *{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 ul{
     list-style-type: none;
@@ -253,7 +254,7 @@ h2{
 /* CTA PARTNER */
 .cta-partner{
     background-color: coral;
-    height: 1000px;
+    height: 700px;
 }
 .big-cta-col{
     width: 55%;
@@ -277,7 +278,7 @@ h2{
 /* OPERATIONS */
 .operations{
     background-color: white;
-    height: 2000px;
+    height: 1300px;
 }
 .op-columns{
     display: flex;
@@ -300,4 +301,20 @@ h2{
 }
 .op-card p{
     font-weight: 600;
+}
+/* CTA CLIENTS */
+.cta-clients{
+    background-color: khaki;
+    height: 300px;
+}
+.cta-container{
+    width: 50%;
+}
+.cta-container h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.cta-container a{
+    text-decoration: underline;
+    color: #0061FF;
 }
