@@ -12,7 +12,7 @@
 ul{
     list-style-type: none;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 a{
     text-decoration: none;
@@ -29,12 +29,24 @@ a{
 .text-small{
     font-size: smaller;
 }
+.small-cta{
+    color: #3C86FF;
+    text-decoration: underline;
+}
 /* BUTTONS and COLORS*/
 .btn-small{
     padding: 5px 10px;
 }
 .btn-big{
     padding: 7px 15px;
+}
+.btn-plan{
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
 .nav-ul .btn-blue,
 .btn-blue{
@@ -116,7 +128,7 @@ h1{
 /* PIANI ABBONAMENTO */
 .plans{
     background-color: aquamarine;
-    height: 1500px;
+    height: 3000px;
     padding-top: 180px;
 }
 .container-section{
@@ -145,7 +157,7 @@ h2{
     flex-direction: column;
     width: calc(100% / 3 - 10px);
     border: 1px dotted red;
-    height: 700px;
+    height: 1200px;
 }
 .card-container{
     display: flex;
@@ -160,6 +172,7 @@ h2{
 .card-ul{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .plan-name{
     height: 40px;
@@ -168,7 +181,48 @@ h2{
     text-align: center;
 }
 .plan-name * {
-    padding: 2px;
+    padding: 10px 2px;
     color: white;
 }
-
+.plan-card-section{
+    padding: 20px 0;
+}
+.plan-card-section *{
+    padding: 5px 0;
+}
+.bold-card{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.plan-price{
+    font-weight: 800;
+}
+.plan-month{
+    color: #95A0A9;
+}
+.btn-plan{
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.hr-plan{
+    display: inline-block;
+    margin-top: 20px;
+    width: 60px;
+    color: #D2D2D5;
+}
+.plan-card-section i{
+    padding-right: 2px;
+}
+.card-ul i[class*="check"]{
+    color: #0061FF;
+}
+.card-ul li{
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
