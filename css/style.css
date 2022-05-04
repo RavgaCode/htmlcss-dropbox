@@ -54,6 +54,12 @@ a{
     padding: 7px 15px;
     border: 2px solid black;
 }
+.btn-trial{
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+}
 .nav-ul .btn-blue,
 .btn-blue{
     background-color: #0061FF;
@@ -321,7 +327,7 @@ h2{
 /* SQUARES - PARTNERS*/
 .squares{
     background-color: bisque;
-    height: 600px;
+    height: 400px;
 }
 .square-columns{
     display: flex;
@@ -338,6 +344,8 @@ h2{
     display: flex;
     flex-wrap: wrap;
     width: 30%;
+    align-items: center;
+    justify-content: center;
 }
 .square-col{
     width: 50%;
@@ -374,4 +382,24 @@ h2{
 }
 .square-yellow{
     background-color: #FFD830;
+}
+/* CTA FREE TRIAL */
+.cta-trial{
+    background-color: #B4D0E7;
+    height: 300px;
+}
+.small-trial-col{
+    width: 30%;
+}
+.big-trial-col{
+    width: 70%;
+    padding-right: 15%;
+}
+.big-trial-col h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #61082B;
+}
+.small-trial-col a{
+    margin-top: 10px;
 }
