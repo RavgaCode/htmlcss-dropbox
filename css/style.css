@@ -113,16 +113,62 @@ h1{
     left: 0;
 }
 
-/* Piani abbonamento */
+/* PIANI ABBONAMENTO */
 .plans{
     background-color: aquamarine;
-    height: 1000px;
+    height: 1500px;
+    padding-top: 180px;
 }
-.section-container{
-    width: 70%;
+.container-section{
+    width: 76%;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
 }
-
-
+h2{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.buttons-plans{
+    padding: 30px 0;
+}
+.buttons-plans span{
+    padding-right: 10px;
+}
+/* Colonne piani abbonamento */
+.columns-plans{
+    display: flex;
+    justify-content: space-between;
+}
+.col-plans{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 10px);
+    border: 1px dotted red;
+    height: 700px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.plan-card-section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.card-ul{
+    display: flex;
+    flex-direction: column;
+}
+.plan-name{
+    height: 40px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.plan-name * {
+    padding: 2px;
+    color: white;
+}
 
