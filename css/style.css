@@ -48,10 +48,19 @@ a{
     margin-top: 35px;
     margin-bottom: 20px;
 }
+.btn-box{
+    text-decoration-style: none;
+    padding: 7px 15px;
+    border: 2px solid black;
+}
 .nav-ul .btn-blue,
 .btn-blue{
     background-color: #0061FF;
     color: white;
+}
+.btn-white{
+    background-color: white;
+    color: black;
 }
 
 /* HEADER */
@@ -128,7 +137,7 @@ h1{
 /* PIANI ABBONAMENTO */
 .plans{
     background-color: aquamarine;
-    height: 3000px;
+    height: 1900px;
     padding-top: 180px;
 }
 .container-section{
@@ -228,17 +237,40 @@ h2{
 }
 .big-enterprise-col{
     width: 70%;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 .small-enterprise-col{
     width: 30%;
 }
-.big-enterprise-col *{
-    padding: 20px 0;
-}
 .big-enterprise-col h4{
     font-size: 25px;
+    padding-bottom: 15px;
 }
 .big-enterprise-col h5{
-    font-size: 16px
+    font-size: 16px;
+    padding-bottom:25px;
+}
+/* CTA PARTNER */
+.cta-partner{
+    background-color: coral;
+    height: 1000px;
+}
+.big-cta-col{
+    width: 55%;
+}
+.big-cta-col img{
+    width: 100%;
+}
+.small-cta-col{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+}
+.small-cta-col h4{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.small-cta-col p{
+    padding-bottom: 40px;
 }
