@@ -403,3 +403,77 @@ h2{
 .small-trial-col a{
     margin-top: 10px;
 }
+/* FAQ */
+.faq{
+    background-color: mediumseagreen;
+    height: 700px;
+}
+.faq-columns{
+    display: flex;
+    justify-content: space-between;
+}
+.question-col{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+.arrow-col{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: end;
+}
+.arrow-col span{
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    height: 40px;
+}
+.question-col span{
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    height: 40px;
+}
+/* FOOTER*/
+footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+    padding-top: 80px;
+}
+.footer-container{
+    width: 85%;
+    margin: 0 auto;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-flex ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer-flex h5{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.footer-flex a{
+    padding: 5px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.footer-hr{
+    display: block;
+    width: 120px;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.footer-lang * {
+    padding-right: 3px;
+    color: #999999;
+}
