@@ -142,7 +142,7 @@ h2{
     padding-bottom: 30px;
 }
 .buttons-plans{
-    padding: 30px 0;
+    padding-top: 30px 0;
 }
 .buttons-plans span{
     padding-right: 10px;
@@ -151,6 +151,7 @@ h2{
 .columns-plans{
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
 }
 .col-plans{
     display: flex;
@@ -177,7 +178,7 @@ h2{
 .plan-name{
     height: 40px;
     width: 100%;
-    border-bottom: 2px solid black;
+    border: 2px solid black;
     text-align: center;
 }
 .plan-name * {
@@ -200,14 +201,6 @@ h2{
 .plan-month{
     color: #95A0A9;
 }
-.btn-plan{
-    display: inline-block;
-    width: 100%;
-    padding: 7px;
-    text-align: center;
-    margin-top: 35px;
-    margin-bottom: 20px;
-}
 .hr-plan{
     display: inline-block;
     margin-top: 20px;
@@ -225,4 +218,27 @@ h2{
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
+}
+/* Scheda orizzontale abbonamento */
+.big-horizontal-col{
+    display: flex;
+    border: 2px solid black;
+    align-items: baseline;
+    padding: 0 20px;
+}
+.big-enterprise-col{
+    width: 70%;
+    padding: 20px 0;
+}
+.small-enterprise-col{
+    width: 30%;
+}
+.big-enterprise-col *{
+    padding: 20px 0;
+}
+.big-enterprise-col h4{
+    font-size: 25px;
+}
+.big-enterprise-col h5{
+    font-size: 16px
 }
