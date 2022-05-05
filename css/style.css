@@ -13,7 +13,6 @@
 ul{
     list-style-type: none;
     display: flex;
-    /* align-items: center; */
 }
 a{
     text-decoration: none;
@@ -169,7 +168,7 @@ h2{
     padding-right: 10px;
 }
 /* Colonne piani abbonamento */
-.columns-plans{
+.flex-container{
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -267,6 +266,11 @@ h2{
     padding-bottom:25px;
 }
 #horizontal-name{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-top: 2px solid #DCDCDF;
     border-left: 2px solid #DCDCDF;
     border-right: 2px solid #DCDCDF;
@@ -370,7 +374,6 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px dotted white;
 }
 .square-col img{
     width: 50%;
@@ -390,6 +393,7 @@ h2{
 /* Square colors */
 .square-green{
     background-color: #A2D39B;
+    box-shadow: inset 0 0 0 8px #D0E9CD;
 }
 .square-darkred{
     background-color:#61082B ;
