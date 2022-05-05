@@ -113,18 +113,18 @@ main{
 .columns-jumbo{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .col-jumbo{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     position: relative;
-}
-.col-jumbo .col-small{
-    padding-top: 80px;
+    top: 80px;
 }
 h1{
     font-size: 75px;
+    font-weight: 700;
 }
 .col-small span{
     padding: 30px 0;
@@ -136,9 +136,7 @@ h1{
     font-size: 45px;
 }
 .img-jumbo{
-    position: relative;
-    top: 80px;
-    left: 0;
+    padding-top: 35px;
 }
 
 /* PIANI ABBONAMENTO */
@@ -150,8 +148,6 @@ h1{
 .container-section{
     width: 76%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
 }
 h2{
     font-size: 35px;
@@ -339,24 +335,32 @@ h2{
     flex-direction: column;
     width: 40%;
     background-color: #F5F5F5;
+    padding: 40px;
+    flex-grow: 1;
 }
 .side-col{
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
+    width: 400px;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 .square-col{
-    width: 50%;
-    height: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px dotted white;
-    text-align: center;
 }
 .square-col img{
     width: 50%;
     vertical-align: middle;
     filter: invert(1);
+}
+.logo-partner{
+    width: 150px;
 }
 /* Square colors */
 .square-green{
@@ -416,8 +420,6 @@ h2{
     display: flex;
     flex-direction: column;
     width: 80%;
-    border-top: 2px solid grey;
-    border-bottom: 2px solid grey;
 }
 .arrow-col{
     display: flex;
@@ -426,14 +428,17 @@ h2{
     text-align: end;
 }
 .arrow-col span{
-    border-top: 2px solid grey;
+    display: inline-block;
     border-bottom: 2px solid grey;
-    height: 40px;
+    height: 80px;
 }
 .question-col span{
-    border-top: 2px solid grey;
     border-bottom: 2px solid grey;
-    height: 40px;
+    height: 80px;
+}
+.faq-h3{
+    padding-bottom: 1px;
+    border-bottom:2px solid grey ;
 }
 /* FOOTER*/
 footer{
