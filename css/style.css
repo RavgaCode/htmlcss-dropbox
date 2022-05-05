@@ -34,6 +34,9 @@ a{
     color: #3C86FF;
     text-decoration: underline;
 }
+.h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
 /* BUTTONS and COLORS*/
 .btn-small{
     padding: 5px 10px;
@@ -69,10 +72,19 @@ a{
     background-color: white;
     color: black;
 }
-
+.btn-radio{
+    color: white;
+    border: 1px solid #F0F0F2;
+    border-radius: 50%;
+    padding: 0 2px;
+  
+}
+.btn-radio:hover{
+    box-shadow: inset 0 0 0 3.5px blue;
+}
 /* HEADER */
 header{
-    background-color: aqua;
+    background-color: white;
     height: 80px;
     position: fixed;
     z-index: 10;
@@ -84,7 +96,6 @@ nav{
     align-items: center;
     height: 100%; 
 }
-
 .nav-ul li{
     padding: 0px 15px;
 }
@@ -92,8 +103,6 @@ nav{
     color: #424242;
     font-weight: 700;
 }
-
-
 /* MAIN */
 
 main{
@@ -141,7 +150,7 @@ h1{
 
 /* PIANI ABBONAMENTO */
 .plans{
-    background-color: aquamarine;
+    background-color: white;
     height: 1900px;
     padding-top: 180px;
 }
@@ -169,7 +178,7 @@ h2{
     display: flex;
     flex-direction: column;
     width: calc(100% / 3 - 10px);
-    border: 1px dotted red;
+    border: 2px solid #DCDCDF;
     height: 1200px;
 }
 .card-container{
@@ -190,12 +199,12 @@ h2{
 .plan-name{
     height: 40px;
     width: 100%;
-    border: 2px solid black;
+    border-bottom: 2px solid #DCDCDF;
     text-align: center;
 }
 .plan-name * {
     padding: 10px 2px;
-    color: white;
+    color: black;
 }
 .plan-card-section{
     padding: 20px 0;
@@ -222,6 +231,10 @@ h2{
 .plan-card-section i{
     padding-right: 2px;
 }
+.plan-card-section h5{
+    font-size: 17px;
+    font-weight: 700;
+}
 .card-ul i[class*="check"]{
     color: #0061FF;
 }
@@ -234,7 +247,7 @@ h2{
 /* Scheda orizzontale abbonamento */
 .big-horizontal-col{
     display: flex;
-    border: 2px solid black;
+    border: 2px solid #DCDCDF;
     align-items: baseline;
     padding: 0 20px;
 }
@@ -253,9 +266,14 @@ h2{
     font-size: 16px;
     padding-bottom:25px;
 }
+#horizontal-name{
+    border-top: 2px solid #DCDCDF;
+    border-left: 2px solid #DCDCDF;
+    border-right: 2px solid #DCDCDF;
+}
 /* CTA PARTNER */
 .cta-partner{
-    background-color: coral;
+    background-color: white;
     height: 700px;
 }
 .big-cta-col{
@@ -306,7 +324,7 @@ h2{
 }
 /* CTA CLIENTS */
 .cta-clients{
-    background-color: khaki;
+    background-color: white;
     height: 300px;
 }
 .cta-container{
@@ -361,6 +379,13 @@ h2{
 }
 .logo-partner{
     width: 150px;
+   padding-bottom: 20px;
+}
+.hr-partner{
+    margin-bottom:40px ;
+}
+.central-col p:first-of-type{
+    padding-bottom: 40px;
 }
 /* Square colors */
 .square-green{
@@ -409,36 +434,31 @@ h2{
 }
 /* FAQ */
 .faq{
-    background-color: mediumseagreen;
-    height: 700px;
+    background-color: white;
+    height: 620px;
 }
 .faq-columns{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 .question-col{
     display: flex;
-    flex-direction: column;
-    width: 80%;
-}
-.arrow-col{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    text-align: end;
-}
-.arrow-col span{
-    display: inline-block;
-    border-bottom: 2px solid grey;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     height: 80px;
-}
-.question-col span{
-    border-bottom: 2px solid grey;
-    height: 80px;
+    border-bottom: 2px solid #DFDFE1;
 }
 .faq-h3{
     padding-bottom: 1px;
-    border-bottom:2px solid grey ;
+    border-bottom:2px solid #DFDFE1 ;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 60px;
+    padding-top: 100px;
+}
+.question-col span{
+    font-weight: 700;
 }
 /* FOOTER*/
 footer{
